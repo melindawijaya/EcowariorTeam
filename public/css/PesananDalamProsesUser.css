@@ -1,0 +1,363 @@
+body {
+    margin: 0;
+    line-height: normal;
+    padding-top: 70px; /* Sesuaikan dengan tinggi navbar untuk menghindari konten tertutup navbar */
+}
+
+.shopee-icon {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 328px;
+        left: 680px;
+    }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Pastikan navbar tetap di atas konten lain */
+}
+.navbar-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    position: relative;
+}
+.notification-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.search-container .form-control {
+    width: 492px;
+    height: 44px;
+    border-radius: 70px;
+    padding-left: 50px; /* Jarak padding kiri cukup untuk ikon dan sedikit ruang */
+    background-image: url('assets/icon/NavBar/search.svg');
+    background-repeat: no-repeat;
+    background-position: 15px center; /* Ubah posisi x dari 0px menjadi 15px */
+    background-size: 20px 20px;
+    right: 300px;
+}
+.search-container .form-control:focus {
+    background-image: url('assets/icon/NavBar/search-active.svg');
+}
+.filter-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    right: 390px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sidebar-container {
+    position: fixed;
+    left: 0;
+    top: 88px;
+    width: 250px;
+    height: 100%;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+}
+.nav-link {
+    color: #333;
+}
+.nav-link:hover {
+    background-color: #e9ecef;
+}
+.nav-item {
+    height: 50px;
+   
+}
+.nav-item.pengaturan {
+    margin-top: 180px;
+}
+.sidebar-container .nav {
+    padding-top: 50px;
+}
+.m-a-i, .p-r-e {
+    width: 88px;
+    position: relative;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans';
+    color: rgba(148, 167, 203, 0.4);
+    white-space: pre-wrap;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.p-r-e {
+    width: 112px;
+    padding-top: 20px;
+}
+.pesanan-link {
+    color: #FFFFFF;
+    background-color: #1E8C45;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 56px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.line-div {
+    width: 100%;
+    position: fixed;
+    border-top: 5px solid #d7d6cb;
+    box-sizing: border-box;
+    height: 5px;
+    margin-top: 11px; /* Tambahkan margin-top ini */
+    margin-left: 150px;
+}
+.rectangle-div {
+    width: 300px; /* Diubah dari 100% menjadi 400px */
+    height: 45px; /* Diubah dari 66px menjadi 65px */
+    position: relative;
+    border-radius: 25px 25px 0px 0px;
+    border-top: 2px solid #1e8c45;
+    border-right: 2px solid #1e8c45;
+    border-left: 2px solid #1e8c45;
+    box-sizing: border-box;
+    top: 61px; /* Tambahkan atau kurangi nilai ini untuk mengubah margin atas */
+    margin-left: 440px;
+}
+
+.permintaan-pesanan {
+    width: 280px;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 150%;
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans';
+    color: #a5a49a;
+    text-align: center;
+    top: 15px; /* Tambahkan atau kurangi nilai ini untuk mengubah margin atas */
+    margin-left: 160px;
+    text-decoration: none; /* Menghapus underline */
+}
+
+.container-flex {
+    display: flex;
+    align-items: center; /* Menjaga agar item-item di dalamnya tetap di tengah secara vertikal */
+    justify-content: start; /* Memulai item dari sisi kiri */
+}
+
+.dalam-proses {
+    width: 300px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans';
+    color: #1e8c45;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    margin-top: 27px; /* Sesuaikan nilai ini untuk mengubah posisi vertikal */
+    text-decoration: none; /* Menghapus underline */
+}
+
+.ditolak {
+    width: 300px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans';
+    color: #a5a49a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    margin-top: 27px; /* Sesuaikan nilai ini untuk mengubah posisi vertikal */
+    text-decoration: none; /* Menghapus underline */
+}
+
+.beri-ulasan {
+    width: 300px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: 'Plus Jakarta Sans';
+    color: #a5a49a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    margin-top: 27px; /* Sesuaikan nilai ini untuk mengubah posisi vertikal */
+    text-decoration: none; /* Menghapus underline */
+}
+
+.icon-gmaps {
+    position: absolute; /* Mengatur posisi secara bebas */
+    width: 30px; /* Atur lebar sesuai kebutuhan */
+    height: 30px; /* Atur tinggi sesuai kebutuhan */
+    top: 420px; /* Atur posisi vertikal */
+    left: 200px; /* Atur posisi horizontal */
+}
+
+.logo-jaya-abadi {
+    position: absolute; /* Mengatur posisi secara bebas */
+    width: 80px; /* Atur lebar sesuai kebutuhan */
+    height: 80px; /* Atur tinggi sesuai kebutuhan */
+    top: 30px;
+    left: 30px; /* Jarak dari kiri */
+}
+
+.maps-icon {
+    position: absolute; /* Mengatur posisi secara bebas */
+    width: 280px; /* Atur lebar sesuai kebutuhan */
+    height: 280px; /* Atur tinggi sesuai kebutuhan */
+    top: 130px;
+    left: 30px; /* Jarak dari kiri */
+}
+
+.pt-jaya-abadi {
+    width: 166px;
+    position: absolute;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    line-height: 150%;
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans';
+    color: #1a202c;
+    text-align: left;
+    top: 50px;
+    left: 135px;
+}
+
+.div {
+    width: 26px;
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    font-weight: 500;
+    font-family: 'Plus Jakarta Sans';
+    color: #1a202c;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    left: 600px;
+    top: 259px;
+}
+
+.star-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 59px;
+    left: 360px;
+}
+
+.new-rectangle {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #1E8C45;
+    position: absolute;
+    top: 53px;
+    left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.menu-container {
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    width: 4000px;
+}
+.menu-item {
+    margin-bottom: 10px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+}
+.menu-item span {
+    font-weight: bold; /* Isi menu dengan ketebalan teks yang lebih tebal */
+}
+
+.new-inner-rectangle {
+    width: 320px;
+    height: 30px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #1e8c45;
+    box-sizing: border-box;
+    top: 430px;
+    left: 350px;
+}
+
+.new-inner-rectangle .kirim-pesan {
+    width: 100px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif;
+    color: #1e8c45;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32.2px;
+    left: 110px;
+}
+
+.open-on-text {
+    width: 90px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    line-height: 150%;
+    display: flex;
+    font-family: 'Plus Jakarta Sans';
+    color: #7e8085;
+    text-align: left;
+    align-items: center;
+    height: 24px;
+    left: -250px;
+    top: 190px;
+}
+
+
+.custom-rectangle {
+    top: 16px;
+    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+    border-radius: 25px;
+    border-bottom: 2px solid #1e8c45;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    left: -290px;
+}
