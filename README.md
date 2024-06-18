@@ -1,2 +1,2 @@
-###Gemastik 2024
+Gemastik 2024
 Ecowarior
