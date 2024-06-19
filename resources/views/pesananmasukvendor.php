@@ -29,7 +29,7 @@
               							<div class="dashboard1">Dashboard</div>
             						</div>
             						<div class="house">
-              							<img class="home-icon" alt="" src="img/car.png">
+              							<img class="home-icon" alt="" src="img/pesanan.png">
               							
               							<div class="pesanan">Pesanan</div>
             						</div>
@@ -274,12 +274,12 @@
     		</div>
     		<div class="shopeepay-parent">
       			<b class="shopeepay">Shopeepay</b>
-      			<img class="image-2-icon" alt="" src="image 2.png">
+      			<img class="image-2-icon" alt="" src="img/shopeepay.png">
       			
     		</div>
     		<div class="gopay-parent">
       			<b class="gopay">Gopay</b>
-      			<img class="image-3-icon" alt="" src="image 3.png">
+      			<img class="image-3-icon" alt="" src="img/gopay.png">
       			
     		</div>
     		<div class="nav-bar-top">
@@ -287,7 +287,7 @@
         				<div class="button">
         				</div>
         				<div class="search-something-here">Search something here</div>
-        				<img class="search-normal-icon" alt="" src="img/serach.png">
+        				<img class="search-normal-icon" alt="" src="img/search.png">
         				
         				<img class="vuesaxlinearfilter-icon" alt="" src="img/filter.png">
         				
@@ -295,7 +295,7 @@
       			<img class="image-106-icon" alt="" src="img/EcoTrade.png">
       			
       			<div class="profil-notification">
-        				<img class="notification-icon" alt="" src="Notification.svg">
+        				<img class="notification-icon" alt="" src="img/notification.png">
         				
       			</div>
     		</div>
