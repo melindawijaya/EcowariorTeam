@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\EnkripsiController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\DashboardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,3 +23,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/enkripsi',[EnkripsiController::class,'enkripsi']);
+
+Route::get('/dashboardvendor',[DashboardController::class, 'index']);
