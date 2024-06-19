@@ -37,3 +37,6 @@ Route::get('/identifikasi', [IdentifikasiController::class, 'index']);
 //Uas
 Route::get('/daterange', [DateRangeController::class, 'index'])->name('daterange.index');
 Route::post('/identify-weekends', [DateRangeController::class, 'identifyWeekends'])->name('identifyWeekends');
+
+Route::get('/prime', [PrimeController::class, 'index']);
+Route::post('/prime', [PrimeController::class, 'findPrimes']);
