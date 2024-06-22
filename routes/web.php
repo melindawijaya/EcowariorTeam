@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PesananController;
+use App\Http\Controllers\PesanandalamprosesvendorController;
+use App\Http\Controllers\PesananditolakvendorController;
 use App\Http\Controllers\EnkripsiController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\TestviewController;
@@ -32,6 +34,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/enkripsi',[EnkripsiController::class,'enkripsi']);
 
 Route::get('/dashboardvendor',[DashboardController::class, 'index']);
+
+Route::get('/pesananmasukvendor',[PesananController::class, 'index']);
+
+Route::get('/pesanandalamprosesvendor',[PesanandalamprosesvendorController::class, 'index']);
+
+Route::get('/pesananditolakvendor',[PesananditolakvendorController::class, 'index']);
 
 Route::get('/dompet',[TestviewController::class, 'index']);
 

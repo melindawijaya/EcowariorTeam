@@ -24,12 +24,12 @@
           					<div class="m-a-i">M A I N  M E N U</div>
           					<div class="main-menu1">
             						<div class="dashboard" id="dashboardContainer">
-              							<img class="home-icon" alt="" src="img/home.png">
+              							<img class="home-icon" alt="" src="img/home2.png">
               							
               							<div class="dashboard1">Dashboard</div>
             						</div>
             						<div class="house">
-              							<img class="home-icon" alt="" src="img/car.png">
+              							<img class="home-icon" alt="" src="img/car2.png">
               							
               							<div class="pesanan">Pesanan</div>
             						</div>
@@ -149,7 +149,7 @@
         				
         				<div class="toyota-fortuner-parent">
           					<b class="toyota-fortuner">Open on </b>
-          					<img class="group-icon" alt="" src="img/person.png">
+          					<img class="group-icon" alt="" src="img/Gmap.png">
           					
         				</div>
       			</div>

@@ -497,7 +497,7 @@
     var houseContainer = document.getElementById("houseContainer");
     if(houseContainer) {
         houseContainer.addEventListener("click", function (e) {
-            window.location.href = '/pesananmasuk'; // Sesuaikan dengan URL yang benar
+            window.location.href = 'pesananmasukvendor'; // Sesuaikan dengan URL yang benar
         });
     }
 
@@ -505,7 +505,7 @@
     var insightContainer = document.getElementById("insightContainer");
     if(insightContainer) {
         insightContainer.addEventListener("click", function (e) {
-            window.location.href = "./StatisticsPage.html"; // Sesuaikan dengan URL yang benar
+            window.location.href = '/statistikvendor'; // Sesuaikan dengan URL yang benar
         });
     }
 
@@ -513,7 +513,7 @@
     var orderContainer = document.getElementById("orderContainer");
     if(orderContainer) {
         orderContainer.addEventListener("click", function (e) {
-            window.location.href = "./WalletPage.html"; // Sesuaikan dengan URL yang benar
+            window.location.href = '/dompetvendor'; // Sesuaikan dengan URL yang benar
         });
     }
 
@@ -521,7 +521,7 @@
     var frameContainer = document.getElementById("frameContainer");
     if(frameContainer) {
         frameContainer.addEventListener("click", function (e) {
-            window.location.href = "./TransactionHistoryPage.html"; // Sesuaikan dengan URL yang benar
+            window.location.href = '/riwayatvendor'; // Sesuaikan dengan URL yang benar
         });
     }
 </script>
