@@ -312,7 +312,7 @@
             						<div class="rp100000">Rp.50.000</div>
           					</div>
         				</div>
-        				<img class="image-5-icon" alt="" src="image 5.png">
+        				<img class="image-5-icon" alt="" src="img/map.png">
         				
         				<div class="group-parent6">
           					<div class="type-group">
@@ -497,7 +497,7 @@
     var houseContainer = document.getElementById("houseContainer");
     if(houseContainer) {
         houseContainer.addEventListener("click", function (e) {
-            window.location.href = "/dashboardvendor.blade.php"; // Sesuaikan dengan URL yang benar
+            window.location.href = '/pesananmasuk'; // Sesuaikan dengan URL yang benar
         });
     }
 

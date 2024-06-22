@@ -158,7 +158,7 @@
       			
       			<div class="toyota-fortuner-parent">
         				<b class="toyota-fortuner">Open on </b>
-        				<img class="group-icon" alt="" src="img/person.png">
+        				<img class="group-icon" alt="" src="img/gmap.png">
         				
       			</div>
     		</div>
@@ -250,7 +250,7 @@
       			
       			<div class="toyota-fortuner-parent">
         				<b class="toyota-fortuner">Open on </b>
-        				<img class="group-icon" alt="" src="img/person.png">
+        				<img class="group-icon" alt="" src="img/gmap.png">
         				
       			</div>
     		</div>

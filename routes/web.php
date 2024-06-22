@@ -6,11 +6,10 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PesananController;
 use App\Http\Controllers\EnkripsiController;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\DalamprosesController;
-use App\Http\Controllers\PesananditolakController;
+use App\Http\Controllers\TestviewController;
+use App\Http\Controllers\IdentifikasiController;
+use App\Http\Controllers\DateRangeController;
 use App\Http\Controllers\PrimeController;
-
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,7 +22,7 @@ use App\Http\Controllers\PrimeController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 Auth::routes();
@@ -32,14 +31,16 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/enkripsi',[EnkripsiController::class,'enkripsi']);
 
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/dashboardvendor',[DashboardController::class, 'index']);
 
-Route::get('/pesananmasuk', [PesananController::class, 'index'])->name('pesanan');
+Route::get('/dompet',[TestviewController::class, 'index']);
 
-Route::get('/dalamproses', [DalamProsesController::class, 'index'])->name('dalamproses');
+Route::get('/identifikasi', [IdentifikasiController::class, 'index']);
 
-Route::get('/pesananditolak', [PesananditolakController::class, 'index'])->name('pesananditolak');
 
+//Uas
+Route::get('/daterange', [DateRangeController::class, 'index'])->name('daterange.index');
+Route::post('/identify-weekends', [DateRangeController::class, 'identifyWeekends'])->name('identifyWeekends');
 
 Route::get('/prime', [PrimeController::class, 'index']);
 Route::post('/prime', [PrimeController::class, 'findPrimes']);
